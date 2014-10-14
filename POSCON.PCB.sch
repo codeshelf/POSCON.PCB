@@ -1623,16 +1623,29 @@ MFG part number 54602-908lf</description>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
-<part name="U$1" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$6" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$7" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$8" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$9" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$1" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="U$6" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="U$7" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="U$8" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="U$9" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="-218.44" y="-73.66" size="6.4516" layer="91">POSCON.PCB.v1.0</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="0" y="0">
@@ -1744,12 +1757,24 @@ MFG part number 54602-908lf</description>
 </instance>
 <instance part="GND2" gate="1" x="-7.62" y="-81.28"/>
 <instance part="+3V7" gate="G$1" x="7.62" y="-43.18"/>
-<instance part="U$1" gate="G$1" x="-33.02" y="134.62"/>
-<instance part="U$2" gate="G$1" x="0" y="134.62"/>
-<instance part="U$6" gate="G$1" x="30.48" y="132.08"/>
-<instance part="U$7" gate="G$1" x="-25.4" y="109.22"/>
-<instance part="U$8" gate="G$1" x="5.08" y="104.14"/>
-<instance part="U$9" gate="G$1" x="33.02" y="104.14"/>
+<instance part="U$1" gate="G$1" x="-33.02" y="134.62">
+<attribute name="NOTES" x="-33.02" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$2" gate="G$1" x="0" y="134.62">
+<attribute name="NOTES" x="0" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$6" gate="G$1" x="30.48" y="132.08">
+<attribute name="NOTES" x="30.48" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$7" gate="G$1" x="-25.4" y="109.22">
+<attribute name="NOTES" x="-25.4" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$8" gate="G$1" x="5.08" y="104.14">
+<attribute name="NOTES" x="5.08" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$9" gate="G$1" x="33.02" y="104.14">
+<attribute name="NOTES" x="33.02" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
