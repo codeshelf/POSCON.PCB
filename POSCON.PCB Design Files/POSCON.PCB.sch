@@ -72,6 +72,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
@@ -267,8 +268,8 @@ type 0207, grid 7.5 mm</description>
 <wire x1="1" y1="0.3" x2="-1" y2="0.3" width="0.0508" layer="39"/>
 <smd name="1" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
 <smd name="2" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
-<text x="-1" y="0.5" size="1.27" layer="25">&gt;Name</text>
-<text x="-1" y="-1.75" size="1.27" layer="27">&gt;Value</text>
+<text x="-1" y="1.77" size="1.27" layer="25">&gt;Name</text>
+<text x="-1" y="-3.02" size="1.27" layer="27">&gt;Value</text>
 </package>
 <package name="C1210K">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1210 reflow solder&lt;/b&gt;&lt;p&gt;
@@ -518,9 +519,9 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="6.2" y1="-6.2" x2="-6.2" y2="-6.2" width="0.127" layer="21"/>
 <wire x1="-6.2" y1="-6.2" x2="-6.2" y2="6.2" width="0.127" layer="21"/>
 <pad name="P$1" x="-3.81" y="-3.81" drill="1.22"/>
-<pad name="P$3" x="1.27" y="1.27" drill="1.22"/>
+<pad name="P$3" x="1.27" y="1.27" drill="1.22" thermals="no"/>
 <pad name="P$2" x="-1.27" y="3.81" drill="1.22"/>
-<pad name="P$4" x="3.81" y="-3.81" drill="1.22"/>
+<pad name="P$4" x="3.81" y="-3.81" drill="1.22" thermals="no"/>
 <text x="-3.3" y="6.9" size="1.27" layer="25">&gt;Name</text>
 </package>
 <package name="SWITCH-TACTILE-FSM">
@@ -595,6 +596,27 @@ MAX3223-MAX3243.pdf</description>
 <smd name="5" x="2.31" y="0" dx="1.18" dy="1" layer="1"/>
 <smd name="6" x="2.31" y="1.75" dx="1.18" dy="1" layer="1"/>
 <text x="-2.54" y="3.175" size="1.27" layer="25">&gt;Name</text>
+</package>
+<package name="RFMD0402">
+<smd name="P$1" x="-0.4445" y="0" dx="0.599946875" dy="0.47498125" layer="1" rot="R90"/>
+<smd name="P$2" x="0.4445" y="0" dx="0.599946875" dy="0.47498125" layer="1" rot="R90"/>
+<text x="-1.27" y="1.27" size="0.4064" layer="21">&gt;NAME</text>
+</package>
+<package name="RF-L0201">
+<smd name="P$1" x="0" y="-0.28955" dx="0.3302" dy="0.3556" layer="1" stop="no"/>
+<smd name="P$2" x="0" y="0.28955" dx="0.3302" dy="0.3556" layer="1" stop="no"/>
+<rectangle x1="-0.2159" y1="0.06095" x2="0.2159" y2="0.51815" layer="29"/>
+<rectangle x1="-0.2286" y1="-0.50545" x2="0.2286" y2="-0.07365" layer="29" rot="R90"/>
+<wire x1="0.17" y1="0.31" x2="0.17" y2="-0.32" width="0.05" layer="51"/>
+<wire x1="0.17" y1="-0.32" x2="-0.17" y2="-0.32" width="0.05" layer="51"/>
+<wire x1="-0.17" y1="-0.32" x2="-0.17" y2="0.31" width="0.05" layer="51"/>
+<wire x1="-0.17" y1="0.31" x2="0.17" y2="0.31" width="0.05" layer="51"/>
+<wire x1="-0.21" y1="0.52" x2="0.21" y2="0.52" width="0.03" layer="39"/>
+<wire x1="0.21" y1="0.52" x2="0.21" y2="-0.52" width="0.03" layer="39"/>
+<wire x1="0.21" y1="-0.52" x2="-0.22" y2="-0.52" width="0.03" layer="39"/>
+<wire x1="-0.22" y1="-0.52" x2="-0.22" y2="0.52" width="0.03" layer="39"/>
+<text x="-3" y="1" size="1" layer="25">&gt;Name</text>
+<text x="-3" y="-2" size="1" layer="27">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -967,6 +989,24 @@ MAX3223-MAX3243.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="RFMD" package="RFMD0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="RF-L0201">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RF-C" uservalue="yes">
@@ -1006,6 +1046,24 @@ MAX3223-MAX3243.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RFMD" package="RFMD0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="RF-L0201">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1645,7 +1703,7 @@ MFG part number 54602-908lf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-218.44" y="-73.66" size="6.4516" layer="91">POSCON.PCB.v1.0</text>
+<text x="-218.44" y="-73.66" size="6.4516" layer="91">POSCON.PCB.v1.1</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="0" y="0">
