@@ -159,8 +159,8 @@
 <hole x="-16.5" y="-18" drill="3.9"/>
 <hole x="16.5" y="18" drill="3.9"/>
 <hole x="16.5" y="-18" drill="3.9"/>
-<text x="7.95" y="-18.05" size="1.27" layer="22" rot="MR0">POSCON.PCB.v1.1</text>
-<text x="7.95" y="-19.7" size="1.27" layer="22" rot="MR0">R.S. 12/30/14</text>
+<text x="7.95" y="-18.05" size="1.27" layer="22" rot="MR0">POSCON.PCB.v1.2</text>
+<text x="7.95" y="-19.7" size="1.27" layer="22" rot="MR0">R.S. 1/6/15</text>
 </plain>
 <libraries>
 <library name="GW-devices">
@@ -537,7 +537,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="0.5mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -646,11 +646,11 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="GW-devices" package="TSSOP16" value="MC9S08QG-DT" x="16.39" y="11.47" smashed="yes" rot="MR90">
+<element name="U1" library="GW-devices" package="TSSOP16" value="MC9S08SH8CTG" x="16.39" y="11.47" smashed="yes" rot="MR90">
 <attribute name="NAME" x="14.9072" y="15.5244" size="1.27" layer="22" ratio="10" rot="MR180"/>
 <attribute name="MFGN" value="Freescale" x="16.39" y="11.47" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MFGP" value="MC9S08QG8CDTER" x="16.39" y="11.47" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PRICE" value="1.73" x="16.39" y="11.47" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFGP" value="MC9S08SH8CTG" x="16.39" y="11.47" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PRICE" value="2.00" x="16.39" y="11.47" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C1" library="GW-devices" package="C0402" value=".1uF" x="9.98" y="12.56" smashed="yes" rot="MR270">
 <attribute name="NAME" x="10.48" y="12.06" size="1.27" layer="22" ratio="10" rot="MR270"/>
@@ -689,25 +689,25 @@ design rules under a new name.</description>
 </element>
 <element name="R.D2D" library="GW-devices" package="3216-4X" value="RESISTOR-ARRAY-4X-3216" x="-5.9" y="-12.7" smashed="yes" rot="MR0">
 <attribute name="MFGN" value="Yageo" x="-0.4" y="8.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFGP" value="YC164-JR-07120RL" x="-0.4" y="8.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFGP" value="YC164-JR-07620RL" x="-0.4" y="8.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="0.006" x="-0.4" y="8.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="-4" y="-10.95" size="1.27" layer="22" ratio="10" rot="MR0"/>
 </element>
 <element name="R.D2C" library="GW-devices" package="3216-4X" value="RESISTOR-ARRAY-4X-3216" x="-16.6" y="-10" smashed="yes" rot="MR0">
 <attribute name="MFGN" value="Yageo" x="-16.6" y="7" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFGP" value="YC164-JR-07120RL" x="-16.6" y="7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFGP" value="YC164-JR-07620RL" x="-16.6" y="7" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="0.006" x="-16.6" y="7" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="-14.8" y="-13.05" size="1.27" layer="22" ratio="10" rot="MR0"/>
 </element>
 <element name="R.D2A" library="GW-devices" package="3216-4X" value="RESISTOR-ARRAY-4X-3216" x="-5.6" y="13" smashed="yes" rot="MR0">
 <attribute name="MFGN" value="Yageo" x="5.9" y="17" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFGP" value="YC164-JR-07120RL" x="5.9" y="17" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFGP" value="YC164-JR-07620RL" x="5.9" y="17" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="0.006" x="5.9" y="17" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="-3.45" y="14.75" size="1.27" layer="22" ratio="10" rot="MR0"/>
 </element>
 <element name="R.D2B" library="GW-devices" package="3216-4X" value="RESISTOR-ARRAY-4X-3216" x="-16" y="12.4" smashed="yes" rot="MR0">
 <attribute name="MFGN" value="Yageo" x="1" y="11.9" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFGP" value="YC164-JR-07120RL" x="1" y="11.9" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFGP" value="YC164-JR-07620RL" x="1" y="11.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="0.006" x="1" y="11.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="-13.55" y="14.05" size="1.27" layer="22" ratio="10" rot="MR0"/>
 </element>
@@ -1038,9 +1038,9 @@ design rules under a new name.</description>
 <wire x1="-5.85" y1="-17.15" x2="-7.2" y2="-17.15" width="2" layer="1"/>
 <wire x1="-7.2" y1="-17.15" x2="-8.5" y2="-17.15" width="2" layer="1"/>
 <wire x1="-8.5" y1="-17.15" x2="-9.85" y2="-17.15" width="2" layer="1"/>
-<via x="-8.5" y="-17.15" extent="1-16" drill="0.6"/>
-<via x="-9.85" y="-17.15" extent="1-16" drill="0.6"/>
-<via x="-11.15" y="-17.15" extent="1-16" drill="0.6"/>
+<via x="-8.5" y="-17.15" extent="1-16" drill="0.5"/>
+<via x="-9.85" y="-17.15" extent="1-16" drill="0.5"/>
+<via x="-11.15" y="-17.15" extent="1-16" drill="0.5"/>
 <wire x1="-11.45" y1="-17.15" x2="-13.275" y2="-15.325" width="2" layer="16"/>
 <wire x1="-13.275" y1="-15.325" x2="-13.35" y2="-15.25" width="1.5" layer="16"/>
 <wire x1="-14.1" y1="-14.5" x2="-13.275" y2="-15.325" width="2" layer="16"/>
@@ -1052,7 +1052,7 @@ design rules under a new name.</description>
 <wire x1="19.2" y1="-3.1" x2="19.2" y2="3.9" width="2" layer="16"/>
 <wire x1="19.2" y1="3.9" x2="18.7" y2="4.4" width="1" layer="16"/>
 <wire x1="17.9" y1="4.45" x2="18.65" y2="4.45" width="1" layer="16"/>
-<wire x1="18.65" y1="4.45" x2="18.7" y2="4.4" width="0.8128" layer="16"/>
+<wire x1="18.65" y1="4.45" x2="18.7" y2="4.4" width="1" layer="16"/>
 <wire x1="18.7" y1="-5.75" x2="18.7" y2="-5.7" width="2" layer="1"/>
 <wire x1="19.2" y1="-4.6" x2="19.2" y2="-4.5" width="2" layer="1"/>
 <wire x1="19.2" y1="-4.5" x2="19.2" y2="-4.2" width="2" layer="1"/>
@@ -1941,6 +1941,59 @@ design rules under a new name.</description>
 <wire x1="11.655" y1="13.745" x2="11.45" y2="13.95" width="0.254" layer="16"/>
 </signal>
 </signals>
+<errors>
+<approved hash="18,29,885b902bc68a25b8"/>
+<approved hash="18,29,e825e94b17541022"/>
+<approved hash="18,29,8ef5e054206d4ecc"/>
+<approved hash="18,29,d8ca326bf26418c5"/>
+<approved hash="18,29,2ac30c62cc7beada"/>
+<approved hash="18,29,04d85e799e72c4d3"/>
+<approved hash="18,29,fb79a1d861d33b72"/>
+<approved hash="18,29,a90f57ae97a86909"/>
+<approved hash="18,29,71040e040e7b717b"/>
+<approved hash="18,29,6a37cc6ba63acb97"/>
+<approved hash="18,29,030303f703a8035c"/>
+<approved hash="18,29,0a48afe3e70eb9d7"/>
+<approved hash="18,29,3078d20cd2703004"/>
+<approved hash="18,29,c8c0f4f236f9fb36"/>
+<approved hash="18,29,91c8bb6b60437416"/>
+<approved hash="18,29,a19925ef58871362"/>
+<approved hash="18,29,f44fbab7bacaf432"/>
+<approved hash="18,29,70204c244ce470e0"/>
+<approved hash="18,29,957ccb4503f0a5b0"/>
+<approved hash="18,29,e80fa69fa6e2e872"/>
+<approved hash="18,29,a29902ec4a7c1563"/>
+<approved hash="18,29,4e4e99be96714181"/>
+<approved hash="18,29,b825a93508578650"/>
+<approved hash="18,29,82090a946b7cf5e3"/>
+<approved hash="18,29,bab624aeb3f65b80"/>
+<approved hash="18,29,37a63f423f0437e0"/>
+<approved hash="18,29,07213fc53f0007e4"/>
+<approved hash="18,29,4b063d89a6172485"/>
+<approved hash="18,29,7756d88d4ebea75c"/>
+<approved hash="18,29,458bfa49a58d143b"/>
+<approved hash="18,29,4017343e829e3f4d"/>
+<approved hash="18,29,712a4d2e4ce070e4"/>
+<approved hash="18,29,950ccb5703f2a4b0"/>
+<approved hash="18,29,e975a7e5a7e6e976"/>
+<approved hash="18,29,9173c071adb6e879"/>
+<approved hash="18,29,794e978125036407"/>
+<approved hash="18,29,b01d7ef865d92bf4"/>
+<approved hash="18,29,23ef78a67144ca47"/>
+<approved hash="18,29,63cfe3b3e653e22c"/>
+<approved hash="18,29,e3cfa3bba25c622c"/>
+<approved hash="18,29,d27a0bc88a2e139a"/>
+<approved hash="18,29,1203bfb11e57d3e3"/>
+<approved hash="18,29,9e4b7ba1bab997b0"/>
+<approved hash="18,29,c782aea73a352b7c"/>
+<approved hash="18,29,7ff913444bd41f05"/>
+<approved hash="18,29,f18379dc2ec016a9"/>
+<approved hash="18,29,81cb01b320843ece"/>
+<approved hash="18,29,950ccb5f02fea2b0"/>
+<approved hash="18,29,614939ccc0849e70"/>
+<approved hash="18,29,2106968e96cb2143"/>
+<approved hash="18,29,be04a73704508017"/>
+</errors>
 </board>
 </drawing>
 </eagle>

@@ -630,7 +630,7 @@ MAX3223-MAX3243.pdf</description>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="MC9S08QG">
+<symbol name="MC9S08SH8CTG">
 <wire x1="-20.32" y1="20.32" x2="20.32" y2="20.32" width="0.254" layer="94"/>
 <wire x1="20.32" y1="20.32" x2="20.32" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-20.32" x2="-20.32" y2="-20.32" width="0.254" layer="94"/>
@@ -648,9 +648,10 @@ MAX3223-MAX3243.pdf</description>
 <pin name="PTB1/TX" x="25.4" y="-7.62" length="middle" rot="R180"/>
 <pin name="PTB0/RX" x="25.4" y="-2.54" length="middle" rot="R180"/>
 <pin name="PTA3" x="25.4" y="2.54" length="middle" rot="R180"/>
-<pin name="PTA2/KBIP2" x="25.4" y="7.62" length="middle" rot="R180"/>
-<pin name="PTA1/KBIP1" x="25.4" y="12.7" length="middle" rot="R180"/>
-<pin name="PTA0/KBIP0" x="25.4" y="17.78" length="middle" rot="R180"/>
+<pin name="PTA2" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="PTA1" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="PTA0" x="25.4" y="17.78" length="middle" rot="R180"/>
+<text x="0" y="15.24" size="1.778" layer="97">-SH</text>
 </symbol>
 <symbol name="SMD2X4">
 <wire x1="-1.27" y1="-2.54" x2="-2.54" y2="-2.54" width="0.6096" layer="94"/>
@@ -904,16 +905,16 @@ MAX3223-MAX3243.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MC9S08QG">
+<deviceset name="MC9S08SH8CTG">
 <gates>
-<gate name="G$1" symbol="MC9S08QG" x="0" y="0"/>
+<gate name="G$1" symbol="MC9S08SH8CTG" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-DT" package="TSSOP16">
+<device name="" package="TSSOP16">
 <connects>
-<connect gate="G$1" pin="PTA0/KBIP0" pad="16"/>
-<connect gate="G$1" pin="PTA1/KBIP1" pad="15"/>
-<connect gate="G$1" pin="PTA2/KBIP2" pad="14"/>
+<connect gate="G$1" pin="PTA0" pad="16"/>
+<connect gate="G$1" pin="PTA1" pad="15"/>
+<connect gate="G$1" pin="PTA2" pad="14"/>
 <connect gate="G$1" pin="PTA3" pad="13"/>
 <connect gate="G$1" pin="PTA4/BDM" pad="2"/>
 <connect gate="G$1" pin="PTA5/RESET" pad="1"/>
@@ -1569,10 +1570,10 @@ MFG part number 54602-908lf</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="GW-devices" deviceset="MC9S08QG" device="-DT">
+<part name="U1" library="GW-devices" deviceset="MC9S08SH8CTG" device="">
 <attribute name="MFGN" value="Freescale"/>
-<attribute name="MFGP" value="MC9S08QG8CDTER"/>
-<attribute name="PRICE" value="1.73"/>
+<attribute name="MFGP" value="MC9S08SH8CTG"/>
+<attribute name="PRICE" value="2.00"/>
 </part>
 <part name="C1" library="GW-devices" deviceset="RF-C" device="0402" value=".1uF">
 <attribute name="MFGN" value="Murata"/>
@@ -1611,22 +1612,22 @@ MFG part number 54602-908lf</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="R.D2D" library="GW-devices" deviceset="RESISTOR-ARRAY-4X" device="-3216">
 <attribute name="MFGN" value="Yageo"/>
-<attribute name="MFGP" value="YC164-JR-07120RL"/>
+<attribute name="MFGP" value="YC164-JR-07620RL"/>
 <attribute name="PRICE" value="0.006"/>
 </part>
 <part name="R.D2C" library="GW-devices" deviceset="RESISTOR-ARRAY-4X" device="-3216">
 <attribute name="MFGN" value="Yageo"/>
-<attribute name="MFGP" value="YC164-JR-07120RL"/>
+<attribute name="MFGP" value="YC164-JR-07620RL"/>
 <attribute name="PRICE" value="0.006"/>
 </part>
 <part name="R.D2A" library="GW-devices" deviceset="RESISTOR-ARRAY-4X" device="-3216">
 <attribute name="MFGN" value="Yageo"/>
-<attribute name="MFGP" value="YC164-JR-07120RL"/>
+<attribute name="MFGP" value="YC164-JR-07620RL"/>
 <attribute name="PRICE" value="0.006"/>
 </part>
 <part name="R.D2B" library="GW-devices" deviceset="RESISTOR-ARRAY-4X" device="-3216">
 <attribute name="MFGN" value="Yageo"/>
-<attribute name="MFGP" value="YC164-JR-07120RL"/>
+<attribute name="MFGP" value="YC164-JR-07620RL"/>
 <attribute name="PRICE" value="0.006"/>
 </part>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
@@ -1703,7 +1704,7 @@ MFG part number 54602-908lf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-218.44" y="-73.66" size="6.4516" layer="91">POSCON.PCB.v1.1</text>
+<text x="-218.44" y="-73.66" size="6.4516" layer="91">POSCON.PCB.v1.2</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="0" y="0">
@@ -2434,7 +2435,7 @@ MFG part number 54602-908lf</description>
 <pinref part="SW-ACK" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="27.94" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PTA2/KBIP2"/>
+<pinref part="U1" gate="G$1" pin="PTA2"/>
 <wire x1="58.42" y1="25.4" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="7.62" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="BDM" gate="G$1" pin="7"/>
@@ -2450,7 +2451,7 @@ MFG part number 54602-908lf</description>
 <junction x="116.84" y="43.18"/>
 <wire x1="116.84" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="43.18" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PTA1/KBIP1"/>
+<pinref part="U1" gate="G$1" pin="PTA1"/>
 <wire x1="45.72" y1="27.94" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="1"/>
@@ -2467,7 +2468,7 @@ MFG part number 54602-908lf</description>
 <wire x1="116.84" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 <junction x="116.84" y="55.88"/>
-<pinref part="U1" gate="G$1" pin="PTA0/KBIP0"/>
+<pinref part="U1" gate="G$1" pin="PTA0"/>
 <wire x1="25.4" y1="55.88" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="1"/>
 <pinref part="U$3" gate="G$1" pin="2"/>

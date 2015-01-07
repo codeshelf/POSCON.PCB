@@ -1,9 +1,20 @@
 - Material: FR4
 - Thickness: 0.062"
-- All vias tented
-- NO silkscreen on top side. File provided for component placement / names only!
+- All vias tented (included in soldermask layers)
+- NO silkscreen on top side. File provided for component placement / names only
 - Solder mask: BLACK
 - Silk screen (bottom only): WHITE
 - Hole diameters applicable after plating
 - UL796 Flammability Rating 94V-0. Fabricator's UL Logo shall be placed on bottom side of board
 - Date of manufacture and lot code shall be placed on bottom side of board
+- Stackup: 
+  Top Paste         - POSCON.PCB.SPT
+  Top Silkscreen    - POSCON.PCB.SST [for names / reference only]
+  Top Soldermask    - POSCON.PCB.SMT
+  Top Copper        - POSCON.PCB.LAY1
+  Bottom Copper     - POSCON.PCB.LAY4
+  Bottom Soldermask - POSCON.PCB.SMB
+  Bottom Silkscreen - POSCON.PCB.SSB
+  Bottom Paste      - POSCON.PCB.SPB
+  Excellon Drill    - POSCON.PCB.drd
+  Board Outline     - POSCON.PCB.FAB
