@@ -158,10 +158,10 @@
 <package name="TSSOP16">
 <description>&lt;b&gt;Thin Shrink Small Outline Plastic 16&lt;/b&gt;&lt;p&gt;
 MAX3223-MAX3243.pdf</description>
-<wire x1="-2.5146" y1="-2.2828" x2="2.5146" y2="-2.2828" width="0.1524" layer="21"/>
-<wire x1="2.5146" y1="2.2828" x2="2.5146" y2="-2.2828" width="0.1524" layer="21"/>
-<wire x1="2.5146" y1="2.2828" x2="-2.5146" y2="2.2828" width="0.1524" layer="21"/>
-<wire x1="-2.5146" y1="-2.2828" x2="-2.5146" y2="2.2828" width="0.1524" layer="21"/>
+<wire x1="-2.5146" y1="-2.214690625" x2="2.5146" y2="-2.214690625" width="0.1524" layer="21"/>
+<wire x1="2.51775" y1="2.226059375" x2="2.5146" y2="-2.214690625" width="0.1524" layer="21"/>
+<wire x1="2.51775" y1="2.226059375" x2="-2.51145" y2="2.226059375" width="0.1524" layer="21"/>
+<wire x1="-2.5146" y1="-2.214690625" x2="-2.51145" y2="2.226059375" width="0.1524" layer="21"/>
 <wire x1="-2.286" y1="-2.0542" x2="2.286" y2="-2.0542" width="0.0508" layer="21"/>
 <wire x1="2.286" y1="2.0542" x2="2.286" y2="-2.0542" width="0.0508" layer="21"/>
 <wire x1="2.286" y1="2.0542" x2="-2.286" y2="2.0542" width="0.0508" layer="21"/>
@@ -319,10 +319,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de</description>
 <package name="TSSOP24">
 <description>&lt;b&gt;Thin Shrink Small Outline Plastic 24&lt;/b&gt;&lt;p&gt;
 MAX3223-MAX3243.pdf</description>
-<wire x1="-3.8146" y1="-2.2828" x2="3.8146" y2="-2.2828" width="0.1524" layer="21"/>
-<wire x1="3.8146" y1="2.2828" x2="3.8146" y2="-2.2828" width="0.1524" layer="21"/>
-<wire x1="3.8146" y1="2.2828" x2="-3.8146" y2="2.2828" width="0.1524" layer="21"/>
-<wire x1="-3.8146" y1="-2.2828" x2="-3.8146" y2="2.2828" width="0.1524" layer="21"/>
+<wire x1="-3.80370625" y1="-2.1955875" x2="3.82549375" y2="-2.1955875" width="0.1524" layer="21"/>
+<wire x1="3.8211375" y1="2.210828125" x2="3.82549375" y2="-2.1955875" width="0.1524" layer="21"/>
+<wire x1="3.8211375" y1="2.210828125" x2="-3.8080625" y2="2.210828125" width="0.1524" layer="21"/>
+<wire x1="-3.80370625" y1="-2.1955875" x2="-3.8080625" y2="2.210828125" width="0.1524" layer="21"/>
 <wire x1="-3.586" y1="-2.0542" x2="3.586" y2="-2.0542" width="0.0508" layer="21"/>
 <wire x1="3.586" y1="2.0542" x2="3.586" y2="-2.0542" width="0.0508" layer="21"/>
 <wire x1="3.586" y1="2.0542" x2="-3.586" y2="2.0542" width="0.0508" layer="21"/>
@@ -397,12 +397,12 @@ MAX3223-MAX3243.pdf</description>
 <text x="-0.9" y="1.2" size="0.4064" layer="25">&gt;Name</text>
 </package>
 <package name="3216-4X">
-<wire x1="-1.7" y1="1.2" x2="-1.9" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-1.781659375" y1="1.2" x2="-1.9" y2="1.2" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="1.2" x2="-1.9" y2="-1.2" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="-1.2" x2="-1.7" y2="-1.2" width="0.127" layer="21"/>
-<wire x1="1.7" y1="1.2" x2="1.9" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-1.2" x2="-1.77860625" y2="-1.19935625" width="0.127" layer="21"/>
+<wire x1="1.781959375" y1="1.199225" x2="1.9" y2="1.2" width="0.127" layer="21"/>
 <wire x1="1.9" y1="1.2" x2="1.9" y2="-1.2" width="0.127" layer="21"/>
-<wire x1="1.9" y1="-1.2" x2="1.7" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="1.9" y1="-1.2" x2="1.782471875" y2="-1.2" width="0.127" layer="21"/>
 <smd name="1" x="-1.275" y="-0.85" dx="0.65" dy="0.9" layer="1"/>
 <smd name="2" x="-0.4" y="-0.85" dx="0.5" dy="0.9" layer="1"/>
 <smd name="3" x="0.4" y="-0.85" dx="0.5" dy="0.9" layer="1"/>
@@ -424,9 +424,7 @@ MAX3223-MAX3243.pdf</description>
 <smd name="8" x="0" y="7.5" dx="1.2" dy="3" layer="1"/>
 <smd name="9" x="-1.88" y="7.5" dx="1.2" dy="3" layer="1"/>
 <smd name="10" x="-3.76" y="7.5" dx="1.2" dy="3" layer="1"/>
-<wire x1="-5" y1="7.5" x2="5" y2="7.5" width="0.127" layer="21"/>
 <wire x1="5" y1="7.5" x2="5" y2="-7.5" width="0.127" layer="21"/>
-<wire x1="5" y1="-7.5" x2="-5" y2="-7.5" width="0.127" layer="21"/>
 <wire x1="-5" y1="-7.5" x2="-5" y2="7.5" width="0.127" layer="21"/>
 <wire x1="-3" y1="2.5" x2="-3" y2="0.5" width="1.27" layer="51"/>
 <wire x1="2" y1="2.5" x2="2" y2="0.5" width="1.27" layer="51"/>
@@ -437,6 +435,10 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="-2" y1="3.5" x2="1" y2="3.5" width="1.27" layer="51"/>
 <circle x="4" y="-4.5" radius="0.2687" width="1.27" layer="51"/>
 <text x="-3.16" y="10.19" size="1.27" layer="25">&gt;Name</text>
+<wire x1="5.002871875" y1="7.515209375" x2="4.5914" y2="7.515209375" width="0.127" layer="21"/>
+<wire x1="-5.0011375" y1="7.503484375" x2="-4.562184375" y2="7.503484375" width="0.127" layer="21"/>
+<wire x1="-4.999421875" y1="-7.506875" x2="-4.55281875" y2="-7.506875" width="0.127" layer="21"/>
+<wire x1="5.00163125" y1="-7.499125" x2="4.54926875" y2="-7.499125" width="0.127" layer="21"/>
 </package>
 <package name="DIL06">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
@@ -576,19 +578,16 @@ MAX3223-MAX3243.pdf</description>
 <smd name="P$3" x="-1.91" y="10.225" dx="6.35" dy="0.76" layer="1" rot="R90"/>
 <smd name="P$2" x="-3.18" y="10.225" dx="6.35" dy="0.76" layer="1" rot="R90"/>
 <smd name="P$1" x="-4.45" y="10.225" dx="6.35" dy="0.76" layer="1" rot="R90"/>
-<wire x1="-7.62" y1="-7.94" x2="-7.62" y2="10.16" width="0.127" layer="39"/>
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="39"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-7.94" width="0.127" layer="39"/>
-<wire x1="7.62" y1="-7.94" x2="-7.62" y2="-7.94" width="0.127" layer="39"/>
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="21"/>
 <wire x1="7.62" y1="10.16" x2="7.62" y2="-7.94" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-7.94" x2="-7.62" y2="-7.94" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-7.94" x2="-7.62" y2="10.16" width="0.127" layer="21"/>
+<wire x1="7.620421875" y1="10.15975" x2="5.056875" y2="10.15813125" width="0.127" layer="21"/>
+<wire x1="-7.619525" y1="10.159375" x2="-5.07129375" y2="10.159375" width="0.127" layer="21"/>
 </package>
 <package name="PLCC-6">
 <wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="2.54" x2="-1.5367125" y2="2.264759375" width="0.127" layer="21"/>
 <smd name="1" x="-2.31" y="1.75" dx="1.18" dy="1" layer="1"/>
 <smd name="2" x="-2.31" y="0" dx="1.18" dy="1" layer="1"/>
 <smd name="3" x="-2.31" y="-1.75" dx="1.18" dy="1" layer="1"/>
@@ -596,6 +595,7 @@ MAX3223-MAX3243.pdf</description>
 <smd name="5" x="2.31" y="0" dx="1.18" dy="1" layer="1"/>
 <smd name="6" x="2.31" y="1.75" dx="1.18" dy="1" layer="1"/>
 <text x="-2.54" y="3.175" size="1.27" layer="25">&gt;Name</text>
+<wire x1="-2.615553125" y1="1.056178125" x2="-2.923540625" y2="0.748190625" width="0.127" layer="21"/>
 </package>
 <package name="RFMD0402">
 <smd name="P$1" x="-0.4445" y="0" dx="0.599946875" dy="0.47498125" layer="1" rot="R90"/>
@@ -1358,9 +1358,9 @@ MFG part number 54602-908lf</description>
 <package name="SO08">
 <description>&lt;b&gt;Small Outline Package&lt;/b&gt; Fits JEDEC packages (narrow SOIC-8)</description>
 <wire x1="-2.362" y1="-1.803" x2="2.362" y2="-1.803" width="0.1524" layer="51"/>
-<wire x1="2.362" y1="-1.803" x2="2.362" y2="1.803" width="0.1524" layer="21"/>
+<wire x1="2.423859375" y1="-1.803" x2="2.423859375" y2="1.803" width="0.1524" layer="21"/>
 <wire x1="2.362" y1="1.803" x2="-2.362" y2="1.803" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="1.803" x2="-2.362" y2="-1.803" width="0.1524" layer="21"/>
+<wire x1="-2.413371875" y1="1.803" x2="-2.413371875" y2="-1.803" width="0.1524" layer="21"/>
 <circle x="-1.8034" y="-0.9906" radius="0.1436" width="0.2032" layer="21"/>
 <smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
 <smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
@@ -2058,7 +2058,7 @@ MFG part number 54602-908lf</description>
 <pinref part="U3" gate="G$1" pin="RO"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="DIR" class="0">
 <segment>
 <wire x1="50.8" y1="-35.56" x2="58.42" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-33.02" x2="58.42" y2="-33.02" width="0.1524" layer="91"/>
@@ -2084,7 +2084,7 @@ MFG part number 54602-908lf</description>
 <pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="BDM" class="0">
 <segment>
 <wire x1="-55.88" y1="33.02" x2="-50.8" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="33.02" x2="-50.8" y2="12.7" width="0.1524" layer="91"/>
@@ -2101,7 +2101,7 @@ MFG part number 54602-908lf</description>
 <wire x1="157.48" y1="-22.86" x2="104.14" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="RST" class="0">
 <segment>
 <wire x1="-71.12" y1="30.48" x2="-73.66" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="30.48" x2="-73.66" y2="17.78" width="0.1524" layer="91"/>
@@ -2131,7 +2131,7 @@ MFG part number 54602-908lf</description>
 <pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="SLC" class="0">
+<net name="SCL" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="SCL"/>
 <wire x1="-116.84" y1="-38.1" x2="-116.84" y2="-10.16" width="0.1524" layer="91"/>
@@ -2145,7 +2145,7 @@ MFG part number 54602-908lf</description>
 <wire x1="-58.42" y1="-38.1" x2="-116.84" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SLA" class="0">
+<net name="SDA" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="SDA"/>
 <wire x1="-111.76" y1="-43.18" x2="-111.76" y2="-20.32" width="0.1524" layer="91"/>
@@ -2425,7 +2425,7 @@ MFG part number 54602-908lf</description>
 <wire x1="-238.76" y1="45.72" x2="-256.54" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$42" class="0">
+<net name="ACK" class="0">
 <segment>
 <wire x1="116.84" y1="27.94" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="27.94" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
@@ -2443,7 +2443,7 @@ MFG part number 54602-908lf</description>
 <junction x="58.42" y="25.4"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="INC_UP" class="0">
 <segment>
 <wire x1="116.84" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="43.18" x2="116.84" y2="40.64" width="0.1524" layer="91"/>
@@ -2461,7 +2461,7 @@ MFG part number 54602-908lf</description>
 <junction x="45.72" y="27.94"/>
 </segment>
 </net>
-<net name="N$45" class="0">
+<net name="INC_DOWN" class="0">
 <segment>
 <wire x1="116.84" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="58.42" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
@@ -2478,7 +2478,7 @@ MFG part number 54602-908lf</description>
 <pinref part="BDM" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="LED_DI" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="DI"/>
 <wire x1="22.86" y1="-66.04" x2="30.48" y2="-66.04" width="0.1524" layer="91"/>
