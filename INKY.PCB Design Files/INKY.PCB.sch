@@ -1089,7 +1089,7 @@ MFG part number 54602-908lf</description>
 <wire x1="2.423859375" y1="-1.803" x2="2.423859375" y2="1.803" width="0.1524" layer="21"/>
 <wire x1="2.362" y1="1.803" x2="-2.362" y2="1.803" width="0.1524" layer="51"/>
 <wire x1="-2.413371875" y1="1.803" x2="-2.413371875" y2="-1.803" width="0.1524" layer="21"/>
-<circle x="-1.8034" y="-0.9906" radius="0.1436" width="0.2032" layer="21"/>
+<circle x="-2.9672875" y="-2.877234375" radius="0.381" width="0" layer="21"/>
 <smd name="1" x="-1.905" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
 <smd name="2" x="-0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
 <smd name="3" x="0.635" y="-2.6162" dx="0.6096" dy="2.2098" layer="1"/>
@@ -1192,7 +1192,10 @@ MFG part number 54602-908lf</description>
 <connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFGN" value="Texas Instruments"/>
+<attribute name="MFGP" value="SN65HVD1781DR"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1822,7 +1825,6 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+5V" device=""/>
 <part name="U3" library="SparkFun" deviceset="RS485" device="SOIC">
-<attribute name="MFGN" value="TI"/>
 <attribute name="MFGP" value="SN65HVD1781DR"/>
 <attribute name="PRICE" value="4.29"/>
 </part>

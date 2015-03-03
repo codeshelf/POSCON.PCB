@@ -1744,16 +1744,10 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <part name="U$1" library="adafruit" deviceset="FIDUCIAL" device="">
 <attribute name="NOTES" value="DNP"/>
 </part>
-<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device="">
-<attribute name="NOTES" value="DNP"/>
-</part>
 <part name="U$6" library="adafruit" deviceset="FIDUCIAL" device="">
 <attribute name="NOTES" value="DNP"/>
 </part>
 <part name="U$7" library="adafruit" deviceset="FIDUCIAL" device="">
-<attribute name="NOTES" value="DNP"/>
-</part>
-<part name="U$8" library="adafruit" deviceset="FIDUCIAL" device="">
 <attribute name="NOTES" value="DNP"/>
 </part>
 <part name="U$9" library="adafruit" deviceset="FIDUCIAL" device="">
@@ -1808,6 +1802,12 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </part>
 <part name="U$23" library="GW-devices" deviceset="RF-R" device="0805">
 <attribute name="MFGP" value="CRCW080510K0FKEB"/>
+</part>
+<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="U$8" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
 </part>
 </parts>
 <sheets>
@@ -1874,17 +1874,11 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <instance part="U$1" gate="G$1" x="-33.02" y="134.62">
 <attribute name="NOTES" x="-33.02" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$2" gate="G$1" x="0" y="134.62">
-<attribute name="NOTES" x="0" y="134.62" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="U$6" gate="G$1" x="30.48" y="132.08">
 <attribute name="NOTES" x="30.48" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$7" gate="G$1" x="-25.4" y="109.22">
 <attribute name="NOTES" x="-25.4" y="109.22" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$8" gate="G$1" x="5.08" y="104.14">
-<attribute name="NOTES" x="5.08" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$9" gate="G$1" x="33.02" y="104.14">
 <attribute name="NOTES" x="33.02" y="104.14" size="1.778" layer="96" display="off"/>
@@ -1946,6 +1940,12 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </instance>
 <instance part="U$23" gate="G$1" x="2.54" y="-104.14">
 <attribute name="MFGP" x="2.54" y="-104.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$2" gate="G$1" x="-25.4" y="91.44">
+<attribute name="NOTES" x="-25.4" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$8" gate="G$1" x="33.02" y="88.9">
+<attribute name="NOTES" x="33.02" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>

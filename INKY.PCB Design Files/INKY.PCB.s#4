@@ -2234,10 +2234,8 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </net>
 <net name="ACK" class="0">
 <segment>
-<wire x1="116.84" y1="27.94" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
-<junction x="116.84" y="27.94"/>
 <pinref part="SW-ACK" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="27.94" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PTA2"/>
 <wire x1="58.42" y1="25.4" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
