@@ -1,9 +1,12 @@
+POSCON.PCB.v1.3
+3/12/2015
+
 - Material: FR4
 - Thickness: 0.062"
 - All vias tented (included in soldermask layers)
-- NO silkscreen on top side. File provided for component placement / names only
+- NO SILKSCREEN ON TOP SIDE. File provided for component placement / names only
 - Solder mask: BLACK
-- Silk screen (bottom only): WHITE
+- Silk screen (BOTTOM ONLY): WHITE
 - Hole diameters applicable after plating
 - UL796 Flammability Rating 94V-0. Fabricator's UL Logo shall be placed on bottom side of board
 - Date of manufacture and lot code shall be placed on bottom side of board

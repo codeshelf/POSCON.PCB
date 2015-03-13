@@ -439,6 +439,7 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="-5.0011375" y1="7.503484375" x2="-4.562184375" y2="7.503484375" width="0.127" layer="21"/>
 <wire x1="-4.999421875" y1="-7.506875" x2="-4.55281875" y2="-7.506875" width="0.127" layer="21"/>
 <wire x1="5.00163125" y1="-7.499125" x2="4.54926875" y2="-7.499125" width="0.127" layer="21"/>
+<circle x="-5.2250875" y="-8.43546875" radius="0.43655" width="0" layer="21"/>
 </package>
 <package name="DIL06">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
@@ -547,6 +548,7 @@ MAX3223-MAX3243.pdf</description>
 <smd name="4" x="4.61" y="-2.25" dx="2.5" dy="1.3" layer="1"/>
 <smd name="3" x="-4.61" y="-2.25" dx="2.5" dy="1.3" layer="1"/>
 <text x="-3.6" y="3.9" size="1.6764" layer="25">&gt;Name</text>
+<circle x="-4.96650625" y="0.873459375" radius="0.508" width="0" layer="21"/>
 </package>
 <package name="RJ45-8">
 <wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
@@ -567,7 +569,7 @@ MAX3223-MAX3243.pdf</description>
 <hole x="-5.715" y="0" drill="3.2"/>
 <hole x="5.715" y="0" drill="3.2"/>
 </package>
-<package name="MOLEX-0955016649">
+<package name="RJ45_SMD">
 <hole x="-5.715" y="0" drill="3.25"/>
 <hole x="5.715" y="0" drill="3.25"/>
 <smd name="P$6" x="1.905" y="10.225" dx="6.35" dy="0.76" layer="1" rot="R90"/>
@@ -583,6 +585,8 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="-7.62" y1="-7.94" x2="-7.62" y2="10.16" width="0.127" layer="21"/>
 <wire x1="7.620421875" y1="10.15975" x2="5.056875" y2="10.15813125" width="0.127" layer="21"/>
 <wire x1="-7.619525" y1="10.159375" x2="-5.07129375" y2="10.159375" width="0.127" layer="21"/>
+<text x="10.16" y="-1.27" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<circle x="-5.924515625" y="12.242059375" radius="0.381" width="0" layer="21"/>
 </package>
 <package name="PLCC-6">
 <wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
@@ -617,6 +621,45 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="-0.22" y1="-0.52" x2="-0.22" y2="0.52" width="0.03" layer="39"/>
 <text x="-3" y="1" size="1" layer="25">&gt;Name</text>
 <text x="-3" y="-2" size="1" layer="27">&gt;Value</text>
+</package>
+<package name="SWITCH_TACTILE-5E/5GSH9">
+<smd name="P$2" x="-6.25" y="3.81" dx="2.5" dy="1.2" layer="1"/>
+<smd name="P$4" x="-6.25" y="-3.81" dx="2.5" dy="1.2" layer="1"/>
+<smd name="P$3" x="6.25" y="-3.81" dx="2.5" dy="1.2" layer="1"/>
+<smd name="P$1" x="6.25" y="3.81" dx="2.5" dy="1.2" layer="1"/>
+<wire x1="-5.05" y1="5.05" x2="5.05" y2="5.05" width="0.3" layer="21"/>
+<wire x1="5.05" y1="-5.05" x2="-5.05" y2="-5.05" width="0.3" layer="21"/>
+<wire x1="-5.05" y1="2.6" x2="-5.05" y2="-2.6" width="0.3" layer="21"/>
+<wire x1="5.05" y1="2.6" x2="5.05" y2="-2.6" width="0.3" layer="21"/>
+<wire x1="-6" y1="6" x2="6" y2="6" width="0.4064" layer="105"/>
+<wire x1="6" y1="6" x2="6" y2="-6" width="0.4064" layer="105"/>
+<wire x1="6" y1="-6" x2="-6" y2="-6" width="0.4064" layer="105"/>
+<wire x1="-6" y1="-6" x2="-6" y2="6" width="0.4064" layer="105"/>
+</package>
+<package name="RJ45_GUIDE">
+<smd name="P$1" x="-4.445" y="0" dx="6.35" dy="0.76" layer="1" rot="R90"/>
+<smd name="P$2" x="-3.175" y="0" dx="6.35" dy="0.76" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.905" y="0" dx="6.35" dy="0.76" layer="1" rot="R90"/>
+<smd name="P$4" x="-0.635" y="0" dx="6.35" dy="0.76" layer="1" rot="R90"/>
+<smd name="P$5" x="0.635" y="0" dx="6.35" dy="0.76" layer="1" rot="R90"/>
+<smd name="P$6" x="1.905" y="0" dx="6.35" dy="0.76" layer="1" rot="R90"/>
+<smd name="P$7" x="3.175" y="0" dx="6.35" dy="0.76" layer="1" rot="R90"/>
+<smd name="P$8" x="4.445" y="0" dx="6.35" dy="0.76" layer="1" rot="R90"/>
+<smd name="P$9" x="-8.465" y="-13.275" dx="2.94" dy="2.54" layer="1" rot="R90"/>
+<smd name="P$10" x="8.465" y="-13.275" dx="2.94" dy="2.54" layer="1" rot="R90"/>
+<text x="-3" y="5.2" size="1.27" layer="21">&gt;NAME</text>
+<circle x="-6" y="1.9" radius="0.360553125" width="0" layer="21"/>
+<hole x="-5.715" y="-10.225" drill="3.25"/>
+<hole x="5.715" y="-10.225" drill="3.25"/>
+<wire x1="-7.62" y1="-18.105" x2="7.618871875" y2="-18.105" width="0.127" layer="21"/>
+<wire x1="7.618871875" y1="-18.105" x2="7.62" y2="-18.105" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-0.005" x2="-6" y2="-0.005" width="0.127" layer="21"/>
+<wire x1="6" y1="-0.005" x2="7.62" y2="-0.005" width="0.127" layer="21"/>
+<wire x1="-7.61769375" y1="-18.10711875" x2="-7.61769375" y2="-15.124075" width="0.127" layer="21"/>
+<wire x1="7.618871875" y1="-18.105" x2="7.618871875" y2="-15.12195625" width="0.127" layer="21"/>
+<wire x1="-7.62486875" y1="-0.006146875" x2="-7.62589375" y2="-0.006146875" width="0.127" layer="21"/>
+<wire x1="-7.62589375" y1="-0.006146875" x2="-7.62589375" y2="-8.06931875" width="0.127" layer="21"/>
+<wire x1="7.607975" y1="0.006271875" x2="7.607975" y2="-8.0569" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -866,10 +909,14 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="1.27" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
 <wire x1="2.54" y1="1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 <text x="-2.54" y="5.08" size="1.27" layer="95">&gt;Name</text>
-<pin name="1" x="-5.08" y="0" visible="pin" length="short" direction="in"/>
-<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short" direction="in"/>
-<pin name="3" x="5.08" y="0" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="4" x="5.08" y="-2.54" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="in"/>
+<pin name="2" x="-5.08" y="-2.54" visible="off" length="short" direction="in"/>
+<pin name="3" x="5.08" y="0" visible="off" length="short" direction="in" rot="R180"/>
+<pin name="4" x="5.08" y="-2.54" visible="off" length="short" direction="in" rot="R180"/>
+<text x="-2.286" y="-0.762" size="1.778" layer="95">1</text>
+<text x="-2.286" y="-2.794" size="1.778" layer="95">2</text>
+<text x="1.016" y="-0.762" size="1.778" layer="95">3</text>
+<text x="1.016" y="-2.794" size="1.778" layer="95">4</text>
 </symbol>
 <symbol name="RJ45-8">
 <wire x1="-7.62" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
@@ -1290,6 +1337,17 @@ MAX3223-MAX3243.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="-5E/5GSH9" package="SWITCH_TACTILE-5E/5GSH9">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RJ45-8">
@@ -1314,7 +1372,25 @@ MFG part number 54602-908lf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="MOLEX-0955016649">
+<device name="" package="RJ45_SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFGN" value="Molex"/>
+<attribute name="MFGP" value="0955016889"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLEX_0955406886" package="RJ45_GUIDE">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
@@ -1480,11 +1556,11 @@ MFG part number 54602-908lf</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="+3V3">
+<symbol name="+5V">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1501,10 +1577,10 @@ MFG part number 54602-908lf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+3V3" prefix="+3V3">
+<deviceset name="+5V" prefix="P+">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="+3V3" x="0" y="0"/>
+<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -1581,8 +1657,8 @@ MFG part number 54602-908lf</description>
 <attribute name="PRICE" value="0.02"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V1" library="supply1" deviceset="+5V" device=""/>
+<part name="+3V8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="BDM" library="GW-devices" deviceset="TP2X4SMD" device="">
 <attribute name="NOTES" value="DNP"/>
@@ -1598,7 +1674,7 @@ MFG part number 54602-908lf</description>
 <attribute name="PRICE" value="0.02"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V4" library="supply1" deviceset="+5V" device=""/>
 <part name="U3" library="SparkFun" deviceset="RS485" device="SOIC">
 <attribute name="MFGN" value="TI"/>
 <attribute name="MFGP" value="SN65HVD1781DR"/>
@@ -1630,7 +1706,7 @@ MFG part number 54602-908lf</description>
 <attribute name="MFGP" value="YC164-JR-07620RL"/>
 <attribute name="PRICE" value="0.006"/>
 </part>
-<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R5" library="GW-devices" deviceset="RF-R" device="0402" value="10K">
 <attribute name="MFGN" value="Panasonic"/>
@@ -1642,7 +1718,7 @@ MFG part number 54602-908lf</description>
 <attribute name="MFGP" value="ERJ-2GEJ103X"/>
 <attribute name="PRICE" value="0.02"/>
 </part>
-<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V5" library="supply1" deviceset="+5V" device=""/>
 <part name="LED2" library="GW-devices" deviceset="7SEGMENT-1DIGIT" device="SMD">
 <attribute name="MFGN" value="Kingbright"/>
 <attribute name="MFGP" value="ACSA04-41SEKWA-F01 "/>
@@ -1651,8 +1727,8 @@ MFG part number 54602-908lf</description>
 <attribute name="MFGN" value="Kingbright"/>
 <attribute name="MFGP" value="ACSA04-41SEKWA-F01 "/>
 </part>
-<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V3" library="supply1" deviceset="+5V" device=""/>
+<part name="+3V6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="SW-ACK" library="GW-devices" deviceset="SWITCH-TACTILE" device="-320.01E11WHT">
 <attribute name="MFGP" value="320.01E11WHT"/>
@@ -1677,11 +1753,11 @@ MFG part number 54602-908lf</description>
 </part>
 <part name="U$5" library="GW-devices" deviceset="WS2812" device="">
 <attribute name="MFGN" value="Worldsemi"/>
-<attribute name="MFGP" value="WS2812"/>
-<attribute name="NOTES" value="DNP"/>
+<attribute name="MFGP" value="WS2812S"/>
+<attribute name="NOTES" value=""/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V7" library="supply1" deviceset="+5V" device=""/>
 <part name="U$1" library="adafruit" deviceset="FIDUCIAL" device="">
 <attribute name="NOTES" value="DNP"/>
 </part>
@@ -1704,7 +1780,7 @@ MFG part number 54602-908lf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-218.44" y="-73.66" size="6.4516" layer="91">POSCON.PCB.v1.2</text>
+<text x="-218.44" y="-73.66" size="6.4516" layer="91">POSCON.PCB.v1.3</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="0" y="0">
@@ -1718,8 +1794,8 @@ MFG part number 54602-908lf</description>
 <attribute name="PRICE" x="-43.18" y="7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="-33.02" y="-45.72"/>
-<instance part="+3V1" gate="G$1" x="-33.02" y="45.72"/>
-<instance part="+3V8" gate="G$1" x="91.44" y="-17.78"/>
+<instance part="+3V1" gate="1" x="-33.02" y="45.72"/>
+<instance part="+3V8" gate="1" x="91.44" y="-17.78"/>
 <instance part="GND8" gate="1" x="91.44" y="-50.8"/>
 <instance part="BDM" gate="G$1" x="-63.5" y="30.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-59.436" y="38.862" size="1.778" layer="95" rot="MR0"/>
@@ -1736,7 +1812,7 @@ MFG part number 54602-908lf</description>
 <attribute name="PRICE" x="-81.28" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="-86.36" y="53.34" rot="R180"/>
-<instance part="+3V4" gate="G$1" x="-86.36" y="10.16" rot="R180"/>
+<instance part="+3V4" gate="1" x="-86.36" y="10.16" rot="R180"/>
 <instance part="U3" gate="G$1" x="68.58" y="-33.02">
 <attribute name="MFGN" x="68.58" y="-33.02" size="1.778" layer="96" display="off"/>
 <attribute name="MFGP" x="68.58" y="-33.02" size="1.778" layer="96" display="off"/>
@@ -1766,7 +1842,7 @@ MFG part number 54602-908lf</description>
 <attribute name="MFGP" x="-246.38" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PRICE" x="-246.38" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="-73.66" y="-2.54"/>
+<instance part="+3V2" gate="1" x="-73.66" y="-2.54"/>
 <instance part="GND3" gate="1" x="-106.68" y="116.84" rot="R180"/>
 <instance part="R5" gate="G$1" x="-83.82" y="-20.32">
 <attribute name="MFGN" x="-83.82" y="-20.32" size="1.778" layer="96" display="off"/>
@@ -1778,7 +1854,7 @@ MFG part number 54602-908lf</description>
 <attribute name="MFGP" x="-83.82" y="-10.16" size="1.778" layer="96" display="off"/>
 <attribute name="PRICE" x="-83.82" y="-10.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+3V5" gate="G$1" x="-73.66" y="81.28"/>
+<instance part="+3V5" gate="1" x="-73.66" y="81.28"/>
 <instance part="LED2" gate="G$1" x="-274.32" y="81.28">
 <attribute name="MFGN" x="-274.32" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MFGP" x="-274.32" y="81.28" size="1.778" layer="96" display="off"/>
@@ -1787,8 +1863,8 @@ MFG part number 54602-908lf</description>
 <attribute name="MFGN" x="-243.84" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MFGP" x="-243.84" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+3V3" gate="G$1" x="-307.34" y="109.22"/>
-<instance part="+3V6" gate="G$1" x="-307.34" y="60.96"/>
+<instance part="+3V3" gate="1" x="-307.34" y="109.22"/>
+<instance part="+3V6" gate="1" x="-307.34" y="60.96"/>
 <instance part="GND5" gate="1" x="144.78" y="7.62"/>
 <instance part="SW-ACK" gate="G$1" x="124.46" y="27.94"/>
 <instance part="U$3" gate="G$1" x="124.46" y="58.42">
@@ -1815,7 +1891,7 @@ MFG part number 54602-908lf</description>
 <attribute name="NOTES" x="10.16" y="-66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="-7.62" y="-81.28"/>
-<instance part="+3V7" gate="G$1" x="7.62" y="-43.18"/>
+<instance part="+3V7" gate="1" x="7.62" y="-43.18"/>
 <instance part="U$1" gate="G$1" x="-33.02" y="134.62">
 <attribute name="NOTES" x="-33.02" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
@@ -1944,12 +2020,12 @@ MFG part number 54602-908lf</description>
 <wire x1="-7.62" y1="-71.12" x2="-7.62" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="1">
+<net name="+5V" class="1">
 <segment>
 <wire x1="83.82" y1="-30.48" x2="91.44" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="-30.48" x2="91.44" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="91.44" y="-30.48"/>
-<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<pinref part="+3V8" gate="1" pin="+5V"/>
 <pinref part="U3" gate="G$1" pin="VCC"/>
 <wire x1="157.48" y1="-10.16" x2="139.7" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-10.16" x2="139.7" y2="-27.94" width="0.1524" layer="91"/>
@@ -1979,14 +2055,14 @@ MFG part number 54602-908lf</description>
 <junction x="-33.02" y="33.02"/>
 <pinref part="U1" gate="G$1" pin="VDD"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<pinref part="+3V1" gate="1" pin="+5V"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="-71.12" y1="27.94" x2="-86.36" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="27.94" x2="-86.36" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="BDM" gate="G$1" pin="6"/>
-<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<pinref part="+3V4" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <wire x1="-78.74" y1="-10.16" x2="-73.66" y2="-10.16" width="0.1524" layer="91"/>
@@ -1994,7 +2070,7 @@ MFG part number 54602-908lf</description>
 <wire x1="-78.74" y1="-20.32" x2="-73.66" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-20.32" x2="-73.66" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="-73.66" y="-10.16"/>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<pinref part="+3V2" gate="1" pin="+5V"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
@@ -2002,7 +2078,7 @@ MFG part number 54602-908lf</description>
 <wire x1="-106.68" y1="66.04" x2="-73.66" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="66.04" x2="-73.66" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="VCC"/>
-<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<pinref part="+3V5" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="G1"/>
@@ -2012,7 +2088,7 @@ MFG part number 54602-908lf</description>
 <wire x1="-276.86" y1="55.88" x2="-276.86" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-276.86" y1="55.88" x2="-307.34" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-276.86" y="55.88"/>
-<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<pinref part="+3V6" gate="1" pin="+5V"/>
 <wire x1="-307.34" y1="55.88" x2="-307.34" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -2023,7 +2099,7 @@ MFG part number 54602-908lf</description>
 <wire x1="-276.86" y1="104.14" x2="-276.86" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-276.86" y1="104.14" x2="-307.34" y2="104.14" width="0.1524" layer="91"/>
 <junction x="-276.86" y="104.14"/>
-<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<pinref part="+3V3" gate="1" pin="+5V"/>
 <wire x1="-307.34" y1="104.14" x2="-307.34" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -2035,7 +2111,7 @@ MFG part number 54602-908lf</description>
 <wire x1="25.4" y1="-48.26" x2="25.4" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="VCC"/>
 <wire x1="25.4" y1="-60.96" x2="22.86" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+<pinref part="+3V7" gate="1" pin="+5V"/>
 <wire x1="7.62" y1="-45.72" x2="7.62" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="7.62" y="-48.26"/>
 </segment>
