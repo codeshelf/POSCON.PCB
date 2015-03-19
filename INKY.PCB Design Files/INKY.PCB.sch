@@ -1853,7 +1853,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <part name="U$10" library="KW2" deviceset="52745-1097" device="">
 <attribute name="MFGP" value="52745-1097"/>
 </part>
-<part name="U$11" library="GW-devices" deviceset="RF-R" device="0805">
+<part name="U$11" library="GW-devices" deviceset="RF-R" device="0805" value="10K">
 <attribute name="MFGP" value="CRCW080510K0FKEB"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
@@ -1866,7 +1866,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <part name="U$24" library="GW-devices" deviceset="RF-C" device="0805">
 <attribute name="MFGP" value="0805YD104KAT2A"/>
 </part>
-<part name="U$25" library="GW-devices" deviceset="RF-R" device="0805">
+<part name="U$25" library="GW-devices" deviceset="RF-R" device="0805" value="10K">
 <attribute name="MFGP" value="CRCW080510K0FKEB"/>
 </part>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
@@ -1916,7 +1916,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-218.44" y="-73.66" size="6.4516" layer="91">INKY.PCB.v1.0P1</text>
+<text x="-218.44" y="-73.66" size="6.4516" layer="91">INKY.PCB.v1.0P2</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="0" y="0">
@@ -2340,13 +2340,11 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <segment>
 <wire x1="116.84" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="58.42" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 <junction x="116.84" y="55.88"/>
 <pinref part="U1" gate="G$1" pin="PTA0"/>
 <wire x1="25.4" y1="55.88" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="30.48" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="30.48" x2="-55.88" y2="30.48" width="0.1524" layer="91"/>
 <junction x="25.4" y="30.48"/>

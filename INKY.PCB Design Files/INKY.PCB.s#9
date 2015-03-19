@@ -1228,16 +1228,16 @@ MFG part number 54602-908lf</description>
 <library name="KW2">
 <packages>
 <package name="52745-1097">
-<smd name="P$1" x="-2.25" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$2" x="-1.75" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$3" x="-1.25" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$4" x="-0.75" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$5" x="-0.25" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$6" x="0.25" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$7" x="0.75" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$8" x="1.25" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$9" x="1.75" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$10" x="2.25" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$10" x="-2.25" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$9" x="-1.75" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$8" x="-1.25" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$7" x="-0.75" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$6" x="-0.25" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$5" x="0.25" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$4" x="0.75" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$3" x="1.25" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$2" x="1.75" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$1" x="2.25" y="0.95" dx="1.5" dy="0.3" layer="1" rot="R90"/>
 <polygon width="0.05" layer="1">
 <vertex x="3.5" y="0"/>
 <vertex x="5.9" y="0"/>
@@ -1298,7 +1298,7 @@ MFG part number 54602-908lf</description>
 <vertex x="2.7" y="-1.94"/>
 <vertex x="3.4" y="-1.94"/>
 </polygon>
-<circle x="-2.93583125" y="2.32630625" radius="0.26063125" width="0" layer="21"/>
+<circle x="3.41416875" y="2.32630625" radius="0.26063125" width="0" layer="21"/>
 </package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
@@ -1339,16 +1339,16 @@ MFG part number 54602-908lf</description>
 </packages>
 <symbols>
 <symbol name="52745-1097">
-<pin name="P$1" x="-12.7" y="5.08" length="middle" rot="R270"/>
-<pin name="P$2" x="-10.16" y="5.08" length="middle" rot="R270"/>
-<pin name="P$3" x="-7.62" y="5.08" length="middle" rot="R270"/>
-<pin name="P$4" x="-5.08" y="5.08" length="middle" rot="R270"/>
-<pin name="P$5" x="-2.54" y="5.08" length="middle" rot="R270"/>
-<pin name="P$6" x="0" y="5.08" length="middle" rot="R270"/>
-<pin name="P$7" x="2.54" y="5.08" length="middle" rot="R270"/>
-<pin name="P$8" x="5.08" y="5.08" length="middle" rot="R270"/>
-<pin name="P$9" x="7.62" y="5.08" length="middle" rot="R270"/>
-<pin name="P$10" x="10.16" y="5.08" length="middle" rot="R270"/>
+<pin name="SCLK" x="-12.7" y="5.08" length="middle" rot="R270"/>
+<pin name="SI" x="-10.16" y="5.08" length="middle" rot="R270"/>
+<pin name="SCS" x="-7.62" y="5.08" length="middle" rot="R270"/>
+<pin name="EXCOMIN" x="-5.08" y="5.08" length="middle" rot="R270"/>
+<pin name="DISP" x="-2.54" y="5.08" length="middle" rot="R270"/>
+<pin name="VDDA" x="0" y="5.08" length="middle" rot="R270"/>
+<pin name="VDD" x="2.54" y="5.08" length="middle" rot="R270"/>
+<pin name="EXTMODE" x="5.08" y="5.08" length="middle" rot="R270"/>
+<pin name="VSS" x="7.62" y="5.08" length="middle" rot="R270"/>
+<pin name="VSSA" x="10.16" y="5.08" length="middle" rot="R270"/>
 <wire x1="-15.24" y1="2.54" x2="-15.24" y2="-2.54" width="0.254" layer="97"/>
 <wire x1="-15.24" y1="-2.54" x2="-22.86" y2="-2.54" width="0.254" layer="97"/>
 <wire x1="-22.86" y1="-2.54" x2="-22.86" y2="-12.7" width="0.254" layer="97"/>
@@ -1421,23 +1421,23 @@ MFG part number 54602-908lf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="52745-1097">
+<deviceset name="52745-1097" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="52745-1097" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="52745-1097">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$10" pad="P$10"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
-<connect gate="G$1" pin="P$6" pad="P$6"/>
-<connect gate="G$1" pin="P$7" pad="P$7"/>
-<connect gate="G$1" pin="P$8" pad="P$8"/>
-<connect gate="G$1" pin="P$9" pad="P$9"/>
+<connect gate="G$1" pin="DISP" pad="P$5"/>
+<connect gate="G$1" pin="EXCOMIN" pad="P$4"/>
+<connect gate="G$1" pin="EXTMODE" pad="P$8"/>
+<connect gate="G$1" pin="SCLK" pad="P$1"/>
+<connect gate="G$1" pin="SCS" pad="P$3"/>
+<connect gate="G$1" pin="SI" pad="P$2"/>
+<connect gate="G$1" pin="VDD" pad="P$7"/>
+<connect gate="G$1" pin="VDDA" pad="P$6"/>
+<connect gate="G$1" pin="VSS" pad="P$9"/>
+<connect gate="G$1" pin="VSSA" pad="P$10"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1744,19 +1744,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <part name="U$1" library="adafruit" deviceset="FIDUCIAL" device="">
 <attribute name="NOTES" value="DNP"/>
 </part>
-<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device="">
-<attribute name="NOTES" value="DNP"/>
-</part>
-<part name="U$6" library="adafruit" deviceset="FIDUCIAL" device="">
-<attribute name="NOTES" value="DNP"/>
-</part>
 <part name="U$7" library="adafruit" deviceset="FIDUCIAL" device="">
-<attribute name="NOTES" value="DNP"/>
-</part>
-<part name="U$8" library="adafruit" deviceset="FIDUCIAL" device="">
-<attribute name="NOTES" value="DNP"/>
-</part>
-<part name="U$9" library="adafruit" deviceset="FIDUCIAL" device="">
 <attribute name="NOTES" value="DNP"/>
 </part>
 <part name="U$10" library="KW2" deviceset="52745-1097" device="">
@@ -1808,6 +1796,12 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </part>
 <part name="U$23" library="GW-devices" deviceset="RF-R" device="0805">
 <attribute name="MFGP" value="CRCW080510K0FKEB"/>
+</part>
+<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
+</part>
+<part name="U$8" library="adafruit" deviceset="FIDUCIAL" device="">
+<attribute name="NOTES" value="DNP"/>
 </part>
 </parts>
 <sheets>
@@ -1874,20 +1868,8 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <instance part="U$1" gate="G$1" x="-33.02" y="134.62">
 <attribute name="NOTES" x="-33.02" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$2" gate="G$1" x="0" y="134.62">
-<attribute name="NOTES" x="0" y="134.62" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$6" gate="G$1" x="30.48" y="132.08">
-<attribute name="NOTES" x="30.48" y="132.08" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="U$7" gate="G$1" x="-25.4" y="109.22">
 <attribute name="NOTES" x="-25.4" y="109.22" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$8" gate="G$1" x="5.08" y="104.14">
-<attribute name="NOTES" x="5.08" y="104.14" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$9" gate="G$1" x="33.02" y="104.14">
-<attribute name="NOTES" x="33.02" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$10" gate="G$1" x="-213.36" y="-22.86" rot="R270">
 <attribute name="MFGP" x="-213.36" y="-22.86" size="1.778" layer="96" rot="R270" display="off"/>
@@ -1946,6 +1928,12 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </instance>
 <instance part="U$23" gate="G$1" x="2.54" y="-104.14">
 <attribute name="MFGP" x="2.54" y="-104.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$2" gate="G$1" x="-25.4" y="91.44">
+<attribute name="NOTES" x="-25.4" y="91.44" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$8" gate="G$1" x="33.02" y="88.9">
+<attribute name="NOTES" x="33.02" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -2013,8 +2001,6 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <wire x1="132.08" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="43.18" x2="132.08" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="25.4" x2="129.54" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="58.42" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
 <junction x="144.78" y="27.94"/>
@@ -2023,18 +2009,20 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <junction x="132.08" y="27.94"/>
 <junction x="132.08" y="58.42"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="SW-ACK" gate="G$1" pin="4"/>
 <pinref part="SW-ACK" gate="G$1" pin="3"/>
 <pinref part="U$3" gate="G$1" pin="3"/>
 <pinref part="U$3" gate="G$1" pin="4"/>
 <pinref part="U$4" gate="G$1" pin="3"/>
 <pinref part="U$4" gate="G$1" pin="4"/>
+<pinref part="SW-ACK" gate="G$1" pin="4"/>
+<wire x1="129.54" y1="25.4" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="25.4" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="P$10"/>
+<pinref part="U$10" gate="G$1" pin="VSSA"/>
 <wire x1="-208.28" y1="-33.02" x2="-203.2" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-203.2" y1="-33.02" x2="-203.2" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="G$1" pin="P$9"/>
+<pinref part="U$10" gate="G$1" pin="VSS"/>
 <wire x1="-203.2" y1="-30.48" x2="-208.28" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-203.2" y1="-33.02" x2="-203.2" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="2"/>
@@ -2209,11 +2197,8 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <net name="ACK" class="0">
 <segment>
 <wire x1="116.84" y1="27.94" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="27.94" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="25.4" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
 <junction x="116.84" y="27.94"/>
 <pinref part="SW-ACK" gate="G$1" pin="1"/>
-<pinref part="SW-ACK" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="27.94" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PTA2"/>
@@ -2293,14 +2278,14 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="P$8"/>
+<pinref part="U$10" gate="G$1" pin="EXTMODE"/>
 <pinref part="U$11" gate="G$1" pin="1"/>
 <wire x1="-208.28" y1="-27.94" x2="-195.58" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="P$4"/>
+<pinref part="U$10" gate="G$1" pin="EXCOMIN"/>
 <pinref part="U$25" gate="G$1" pin="1"/>
 <wire x1="-208.28" y1="-17.78" x2="-160.02" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-160.02" y1="-17.78" x2="-160.02" y2="-20.32" width="0.1524" layer="91"/>
@@ -2383,7 +2368,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </net>
 <net name="+3V3" class="3">
 <segment>
-<pinref part="U$10" gate="G$1" pin="P$5"/>
+<pinref part="U$10" gate="G$1" pin="DISP"/>
 <wire x1="-208.28" y1="-20.32" x2="-193.04" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-193.04" y1="-20.32" x2="-187.96" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-187.96" y1="-20.32" x2="-180.34" y2="-20.32" width="0.1524" layer="91"/>
@@ -2393,11 +2378,11 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <wire x1="-167.64" y1="-20.32" x2="-167.64" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="-22.86" x2="-162.56" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="U$12" gate="G$1" pin="1"/>
-<pinref part="U$10" gate="G$1" pin="P$7"/>
+<pinref part="U$10" gate="G$1" pin="VDD"/>
 <wire x1="-208.28" y1="-25.4" x2="-195.58" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-195.58" y1="-25.4" x2="-193.04" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-193.04" y1="-25.4" x2="-193.04" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="G$1" pin="P$6"/>
+<pinref part="U$10" gate="G$1" pin="VDDA"/>
 <wire x1="-193.04" y1="-22.86" x2="-208.28" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-193.04" y1="-22.86" x2="-193.04" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="U$17" gate="G$1" pin="1"/>
@@ -2446,7 +2431,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="P$1"/>
+<pinref part="U$10" gate="G$1" pin="SCLK"/>
 <wire x1="-170.18" y1="-10.16" x2="-208.28" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="-10.16" x2="-165.1" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="-10.16" x2="-165.1" y2="-5.08" width="0.1524" layer="91"/>
@@ -2456,7 +2441,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="P$2"/>
+<pinref part="U$10" gate="G$1" pin="SI"/>
 <wire x1="-167.64" y1="-12.7" x2="-208.28" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="P$3"/>
 <wire x1="-167.64" y1="-12.7" x2="-139.7" y2="-12.7" width="0.1524" layer="91"/>
@@ -2465,7 +2450,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="P$3"/>
+<pinref part="U$10" gate="G$1" pin="SCS"/>
 <wire x1="-162.56" y1="-15.24" x2="-208.28" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="-15.24" x2="-144.78" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-144.78" y1="-15.24" x2="-144.78" y2="-25.4" width="0.1524" layer="91"/>
